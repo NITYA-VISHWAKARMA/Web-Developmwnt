@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent</title>
+</head>
+<body>
+    <h1>RESTAURENT BOOKING FORM</h1>
+    <form>
+        <label>Customer Name:</label><br>
+        <input type="text" Name="username" placeholder="Enter your name">
+        <br>
+        <br>
+        <label>Email: Address</label><br>
+        <input type="text" Name="username" placeholder="Enter your email">
+        <br>
+        <br>
+        <label>phone Number:</label><br>
+        <input type="text" Name="username" placeholder="Enter your phone Number">
+        <br>
+        <br>
+        <label>Booking Date:</label>
+        <input type="date" Name="username" placeholder="Enter your phone Number">
+        <br>
+        <br>
+        <label>Number of Guests:</label><br>
+        <input type="number" min="1" max="20">
+        <br>
+        <br>
+        <label>Table Type:</label><br>
+        <input type="radio" name="table">
+        <label>Indoor</label><br>
+
+        <input type="radio" name="table">
+        <label>Outdoor</label>
+        <br>
+        <input type="radio" name="table" >
+        <label>Rooftop</label>
+        <br>
+        <br>
+
+        <label>Meal Preference:</label>
+        <input type="checkbox">
+        <label>Vegetarian</label>
+        <br>
+        <input type="checkbox">
+        <label>Non-Vegetarian</label>
+        <br>
+        <input type="checkbox">
+        <label>Vegan</label>
+        <br>
+        <label>Special Request:</label><br>
+        <textarea rows="4" cols="30" placeholder="Any Special request"></textarea>
+        <br>
+        <br>
+        <label>Payment Method:</label><br>
+        <select>
+            <option>Select Method:</option>
+            <option>Cash</option>
+            <option>UPI</option>
+            <option>Credit Card</option>
+            <option>Debit Card</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox">
+        <label>I agree to the Booking Terms.</label>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
